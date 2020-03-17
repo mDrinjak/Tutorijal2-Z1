@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane alignment="center" hgap="10" stylesheets="Izgled.css" vgap="10" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <BorderPane prefHeight="200.0" prefWidth="200.0">
+         <bottom>
+             <Button fx:id="button" BorderPane.alignment="CENTER"  onAction="#ButtonClick" text="Say `Hello World!" GridPane.rowIndex="2" />
+         </bottom>
+         <top>
+             <Label fx:id="helloWorld" text=" " BorderPane.alignment="CENTER" />
+         </top>
+      </BorderPane>
+   </children>
+</GridPane>

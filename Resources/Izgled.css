@@ -1,0 +1,16 @@
+.root {
+    -fx-background-color: lightblue;
+}
+
+#helloWorld {
+    -fx-font-size: 20px;
+    -fx-text-fill: white;
+}
+
+#button {
+    -fx-background-color: Darkred;
+    -fx-text-fill: white;
+
+
+}
+
